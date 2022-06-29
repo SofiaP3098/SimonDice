@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "440711764330",
+    "firebase_url": "https://voltaic-charter-280922.firebaseio.com",
+    "project_id": "voltaic-charter-280922",
+    "storage_bucket": "voltaic-charter-280922.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440711764330:android:430fda988e238910336d13",
+        "android_client_info": {
+          "package_name": "com.example.ti_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440711764330-pc1q5k7jmrm6s6sg9g3b6kglm6u9sicb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7_Mzdbcosr_Nm7nPOLX6Ck-1cyT36gqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440711764330-pc1q5k7jmrm6s6sg9g3b6kglm6u9sicb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

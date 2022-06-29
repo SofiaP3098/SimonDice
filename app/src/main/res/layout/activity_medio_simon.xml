@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MedioSimon">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28mm"
+        android:layout_marginTop="20pt"
+        android:layout_marginBottom="10pt"
+        android:background="#000000"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="10mm"
+            android:layout_marginTop="4mm"
+            android:layout_marginLeft="5mm"
+            android:background="#000000"
+            android:text="Puntaje:"
+            android:textSize="50dp"
+            android:fontFamily="@font/normal"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/puntos"
+            android:layout_width="match_parent"
+            android:layout_height="10mm"
+            android:layout_marginRight="5mm"
+            android:background="#000000"
+            android:text="0"
+            android:textAlignment="textEnd"
+            android:textSize="50dp"
+            android:fontFamily="@font/normal"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/instruccion"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:text="Comencemos"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            android:fontFamily="@font/normal"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/cara"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="95dp"
+            android:text="J"
+            android:textColor="#000000"
+            android:textSize="100dp"
+            android:fontFamily="@font/caras1"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/resultadoT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/normal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/resultadoC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1.5"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="80dp"
+                android:fontFamily="@font/caras1"
+                android:textAlignment="textStart"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
